@@ -9,6 +9,7 @@ include("datatypes.jl")
 include("spacecol.jl")
 include("initializers.jl")
 include("postproc.jl")
+include("spacecol_dirbias.jl")
 
 export
     Attractor,
@@ -18,5 +19,6 @@ export
     initRoots,
     branch2scatter,
     attractor2scatter,
-    spacecol
+    spacecol,
+    spacecol2,
 end
